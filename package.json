@@ -1,0 +1,25 @@
+{
+  "name": "jshint-spiffy-reporter",
+  "version": "0.0.0",
+  "description": "A spiffy JSHint reporter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "martnu/jshint-spiffy-reporter.git",
+  "keywords": [
+    "jshint",
+    "reporter",
+    "spiffy",
+    "martnu"
+  ],
+  "author": "Martin Jönsson <martin@mart.nu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/martnu/jshint-spiffy-reporter/issues"
+  },
+  "homepage": "https://github.com/martnu/jshint-spiffy-reporter",
+  "dependencies": {
+    "chalk": "~0.4.0"
+  }
+}
