@@ -33,9 +33,16 @@ module.exports = {
       checkMaxLengths(error.error);
     });
 
+    var sorter = function(a, b) {
+      return a.line - b.line;
+    };
+
     var log = [];
     for (var k in files) {
       log.push('\n' + chalk.underline.bold(' ' + k + ' ') + '\n');
+
+      files[k].sort(sorter);
+
       files[k].forEach(function(error) {
         for (var k in format) {
           log.push(' | ');
