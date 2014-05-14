@@ -1,6 +1,6 @@
 {
   "name": "jshint-spiffy-reporter",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A spiffy JSHint reporter",
   "main": "index.js",
   "scripts": {
